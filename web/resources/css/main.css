@@ -1,0 +1,91 @@
+.borderRed {
+    border: 1px solid red;
+}
+
+.text-alignLeft {
+    text-align: left;
+}
+.text-alignCenter {
+    text-align: center;
+}
+.text-alignRight {
+    text-align: right;
+}
+
+/* Button */
+.button.default {
+    background-color: #6699ff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+h1.default {
+    width: 100px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 40px;
+    border-radius: 6px;
+    box-shadow:0 2px 10px rgba(0,0,0,.29);
+    
+}
+
+#wrapper {
+    padding: 20px 0;
+}
+
+
+/* FILE Home */
+.home {
+    background-image: url('../images/content.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 1366px;
+}
+table.home-tripform {
+    padding: 20px 30px;
+    background-color: white;
+    margin: 20px 40px;
+    box-shadow:0 2px 10px rgba(0,0,0,.29);
+}
+table.home-tripform input[type="submit"] {
+    margin-top: 100px;
+    text-align: right;
+}
+
+.billing-info {
+    /*display: none;*/
+}
+
+.demo{
+    margin-top: 100px;
+    margin-left: 10px;
+     
+}
+
+/* FILE AddPassenger */
+.content-body-table {
+    max-width: 500px;
+    margin: auto;
+}
+
+.content-body-table input:not([type="submit"]), select {
+    width: 250px;
+}
+
+/* FILE Login */
+table.login {
+    margin: auto;
+}
+
+
+/* File search booking */
+
+.search{
+     margin: auto;
+}
+
+
+/* File  booking */
+.info {
+      margin-left: 900px; 
+}
